@@ -31,7 +31,7 @@ A Flask application that uses AI (Google Gemini), Computer Vision (OpenCV), and 
 - AI-assisted floor area estimation
 - Visual results with contour highlighting
 
-### 🧠 [OpenCV - Bridge Crack Detection](./openCv/)
+### 🧠 [OpenCV - Concrete Crack Detection](./openCv/)
 
 An image processing solution that automates the detection, measurement, classification, and reporting of cracks in bridge surfaces using OpenCV.
 
