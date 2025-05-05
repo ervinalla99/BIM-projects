@@ -1,0 +1,14 @@
+{
+  "name": "cesium-data-viewer",
+  "version": "1.0.0",
+  "description": "A simple Cesium-based data visualization tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "cesium": "^1.114.0",
+    "http-server": "^14.1.1"
+  }
+} 

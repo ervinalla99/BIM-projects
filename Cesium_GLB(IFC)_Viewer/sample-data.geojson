@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point of Interest 1",
+        "description": "This is a sample point of interest",
+        "category": "landmark",
+        "status": "active",
+        "lastUpdated": "2023-04-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.165222, 39.952583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Point of Interest 2",
+        "description": "Another sample point with different attributes",
+        "category": "business",
+        "status": "inactive",
+        "lastUpdated": "2023-03-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.145222, 39.942583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sample Path",
+        "description": "A sample path connecting points",
+        "category": "route",
+        "distance": "2.5 km",
+        "travelTime": "15 min"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-75.165222, 39.952583],
+          [-75.155222, 39.947583],
+          [-75.145222, 39.942583]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sample Area",
+        "description": "A sample polygon area",
+        "category": "region",
+        "population": 5000,
+        "area": "1.2 sq km"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-75.175222, 39.962583],
+          [-75.165222, 39.962583],
+          [-75.165222, 39.952583],
+          [-75.175222, 39.952583],
+          [-75.175222, 39.962583]
+        ]]
+      }
+    }
+  ]
+} 
