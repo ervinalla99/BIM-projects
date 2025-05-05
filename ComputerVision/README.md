@@ -75,3 +75,5 @@ to analyze uploaded floor plan images (JPG, PNG) or PDFs and estimate the total 
     *   **Scale Heuristic**: If linear dimensions were found by OCR, the system attempts a *heuristic* scale calculation. It assumes the largest linear dimension found corresponds to the longest side of the largest detected contour. This scale is then applied to the total pixel area to estimate real-world area (sqm/sqft). This method has known limitations and may be inaccurate.
 5.  **AI Analysis**: The image is sent to the Google Gemini Vision model with a prompt asking for area estimation and analysis in JSON format.
 6.  **Results**: The application displays the AI's estimation, the original and OpenCV images, and detailed results from OCR (linear dimensions found), OpenCV (pixel area, contours, calculated area + method), and the AI in separate tabs. 
+![image](https://github.com/user-attachments/assets/48d9b47e-c34d-460c-ba60-8e0218d65adc)
+![image](https://github.com/user-attachments/assets/47698ec9-8631-4434-9d50-b100b03eaf33)
