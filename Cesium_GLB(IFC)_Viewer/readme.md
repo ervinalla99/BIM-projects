@@ -18,3 +18,5 @@ Show Image
 
 
 🏢 IFC Conversion: Convert IFC (Industry Foundation Classes) files to GLB format
+Install node modules and IfcConvert from Ifcopenshell
+![image](https://github.com/user-attachments/assets/f95b70ff-3809-415f-87a9-907cf9b01551)
